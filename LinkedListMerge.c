@@ -1,3 +1,4 @@
+/* author: Prashant Mahure */
 #include<stdio.h>
 #include <stdlib.h>
 
