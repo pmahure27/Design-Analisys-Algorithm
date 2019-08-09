@@ -12,7 +12,7 @@ def knapSack(Capacity, Item, n):
 		return max(Item[n-1][0] + knapSack(Capacity-Item[n-1][1], Item, n-1), 
 				knapSack(Capacity, Item, n-1)) 
 
-n = int(input("Number of Items : "))
+n = int(input("Number of Items :  "))
 Item = []
 for x in range(n):
 	newItem = [0,0]
